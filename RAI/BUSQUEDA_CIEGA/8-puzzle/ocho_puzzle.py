@@ -134,9 +134,9 @@ class ocho_puzzle:
         iteracion = 1
         self.estado_actual = self.estado_inicial
         self.descubiertos.append(self.estado_actual)
-        movimientos = ["UP", "DOWN", "LEFT", "RIGHT"]
+        #movimientos = ["UP", "DOWN", "LEFT", "RIGHT"]
         #movimientos = ["DOWN", "RIGHT", "UP", "LEFT"]
-        #movimientos = ["DOWN","UP", "RIGHT","LEFT"]
+        movimientos = ["DOWN","UP", "RIGHT","LEFT"]
 
         sucesores = deque()
 
